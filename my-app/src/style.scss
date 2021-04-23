@@ -1,0 +1,43 @@
+$color-red: #ff0000;
+$color-green: #00ff00;
+$color-black: #000;
+$color-white: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: $color-black;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: 10px 0;
+    }
+
+    p {
+        color: $color-red;
+        margin: 10px 0;
+
+        span {
+            color: $color-green;
+        }
+    }
+
+    button {
+        color: $color-red;
+        background: transparent;
+        border: 1px solid $color-red;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
